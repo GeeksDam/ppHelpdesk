@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6772c8ae-137c-4a5f-8062-cf83ac0bd9a8}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{986f8d06-ce02-4a4a-a6c3-22f5285602e2}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ddc095a9-40a3-4cad-8bac-d384d6c660f7}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{26067988-b3b8-4b12-82ed-44227a29ab01}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Comment" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_comment" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="gksd_comment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bdee0436-f0ba-4b16-a8b3-6afe7809b1f2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Created By" languagecode="1033" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b31ab742-ea25-49dd-b13e-c5b7f73517c3}" visible="false">
+                        <labels>
+                          <label description="commentsid" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_commentsid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gksd_commentsid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{90cc5c72-8fb1-4adf-8b32-6462772533ee}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Ticket Comment" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

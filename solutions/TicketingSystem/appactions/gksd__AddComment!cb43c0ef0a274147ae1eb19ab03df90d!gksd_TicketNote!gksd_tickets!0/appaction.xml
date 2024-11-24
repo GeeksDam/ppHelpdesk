@@ -1,0 +1,37 @@
+<appaction uniquename="gksd__AddComment!cb43c0ef0a274147ae1eb19ab03df90d!gksd_TicketNote!gksd_tickets!0">
+  <appmoduleid>
+    <uniquename>gksd_TicketNote</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Add Comment">
+    <label description="Add Comment" languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>gksd_tickets</logicalname>
+  </contextentity>
+  <contextvalue>gksd_tickets</contextvalue>
+  <fonticon>$clientsvg:TextDocument</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>AddComment!cb43c0ef0a274147ae1eb19ab03df90d</name>
+  <onclickeventjavascriptfunctionname>openCustomPageDialog</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":5},{"type":4},{"type":8}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>3a487a8a-c2a2-ef11-8a69-000d3a5bbe11</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <sequence>100100025.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilityformulacomponentlibraryid>
+    <name>gksd_ticketnotedefaultcommandlibrary_f2b29</name>
+  </visibilityformulacomponentlibraryid>
+  <visibilityformulacomponentname>4c70197087824b7981a25941f04dd1ba</visibilityformulacomponentname>
+  <visibilityformulafunctionname>Visible</visibilityformulafunctionname>
+  <visibilitytype>1</visibilitytype>
+</appaction>
