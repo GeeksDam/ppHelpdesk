@@ -1,2 +1,2 @@
 # ppHelpdesk
-A helpdesk system created using the Power Platform Stacj
+A helpdesk system created using the Power Platform stack
