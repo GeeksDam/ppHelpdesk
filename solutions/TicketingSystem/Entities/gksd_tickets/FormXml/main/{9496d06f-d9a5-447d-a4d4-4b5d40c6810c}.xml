@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9496d06f-d9a5-447d-a4d4-4b5d40c6810c}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighReadOnlyValues" shownavigationbar="false">
+      <tabs>
+        <tab verticallayout="true" id="{1ef70fbb-d13d-4b9f-a437-8897f5b5dec9}" IsUserDefined="1" name="Ticket" contenttype="cardSections">
+          <labels>
+            <label description="Ticket" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1245311f-c99c-40c5-8c02-ed6fd50a59d6}" name="Ticket Information" celllabelposition="Left">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{07727ba4-5ec3-4dd4-97f3-eaaee5797aea}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Request Type" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_tickets_type" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gksd_tickets_type" disabled="false" uniqueid="{98901aa4-5603-0864-9ca4-de84c34cb926}">
+                          <parameters>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <useMainFormDialogForEdit>false</useMainFormDialogForEdit>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DefaultViewId>{C30222D9-3B57-461A-909E-3C788AFCFC61}</DefaultViewId>
+                            <AvailableViewIds>{C30222D9-3B57-461A-909E-3C788AFCFC61}</AvailableViewIds>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d7c668fa-9145-4836-bf80-db1a4fb8309b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Short Description" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_shortdescription" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="gksd_shortdescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b1dc2d0c-6795-43c8-90a2-74733ad4e527}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_ticket_desc" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="gksd_ticket_desc" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12ae1d38-2900-c66d-c2d7-a33617beb477}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Ticket_section_3" id="b5f70057-2a2d-4a14-b75b-a5e1b8881dc8" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Resolver Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ac81de2a-a4ac-4c5e-8c56-82e03a4687ff}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{575260ee-eab4-41c5-86aa-bf0042f2d745}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{219b8fd1-7dc6-48b0-a3cb-304a8efd15b0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Assigned Resolver" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_ticket_assigned" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gksd_ticket_assigned" disabled="true" />
+                      </cell>
+                      <cell locklevel="0" id="{5fd1bb93-728b-41a0-8c20-80f55f3f4cc7}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{023bf220-198e-4347-aa08-34c71a47b7c2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{eced99b2-4a94-4c3a-96f8-1afd862d9ea9}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8bec5ab7-942b-462a-934f-3da85501b857}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="gksd_name" disabled="true" />
+                      </cell>
+                      <cell locklevel="0" id="{5f978970-497b-4186-b64b-93e9b0604824}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{19a929a5-beb7-45c6-96e2-87c40baf5ea4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Ticket Status" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_ticketstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="gksd_ticketstatus" disabled="true" />
+                      </cell>
+                      <cell locklevel="0" id="{17c150b7-b743-4fef-a8a6-9b21fbc24750}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Ticket_section_4" id="6e3a99cc-c450-4fe1-8147-2f84a5440240" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Comments" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{01cc4c0d-b16c-c599-341d-978499052055}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="CanvasApp" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_canvasapp" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="gksd_canvasapp" disabled="false" uniqueid="{68cb49b5-3114-c32e-d136-d41a8623339c}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{cef3611b-af97-48a9-b634-1e33124872d8}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b13d3706-08ff-4019-87a2-05bc3c7db8fa}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a6a129c5-b11e-4972-9895-a63a7872eb84}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9c5a90cc-ca13-48b5-8004-fbce0abf2e55}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{1c7e2c96-f39b-496b-888c-eb1927b7cc67}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d94030f2-1103-41a9-9ec6-437c41f22ec1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{29a24b05-a0b4-4e15-abde-53e40c6b3fd9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d8502e14-9d30-4155-9659-dd266859be03}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{68cb49b5-3114-c32e-d136-d41a8623339c}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>gksd_canvasapp</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>gksd_canvasapp</record>
+              <entityName static="true" type="SingleLine.Text">tickets</entityName>
+              <appName static="true" type="SingleLine.Text">gksd_comments_b0285</appName>
+              <appId static="true" type="SingleLine.Text">ad4397c8-d50c-4649-b106-dd9bed713e7f</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>gksd_canvasapp</record>
+              <entityName static="true" type="SingleLine.Text">tickets</entityName>
+              <appName static="true" type="SingleLine.Text">gksd_comments_b0285</appName>
+              <appId static="true" type="SingleLine.Text">ad4397c8-d50c-4649-b106-dd9bed713e7f</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>gksd_canvasapp</record>
+              <entityName static="true" type="SingleLine.Text">tickets</entityName>
+              <appName static="true" type="SingleLine.Text">gksd_comments_b0285</appName>
+              <appId static="true" type="SingleLine.Text">ad4397c8-d50c-4649-b106-dd9bed713e7f</appId>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>0</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

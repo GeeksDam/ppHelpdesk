@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{3a487a8a-c2a2-ef11-8a69-000d3a5bbe11}</WebResourceId>
+  <Name>gksd_CommentCustomPage</Name>
+  <DisplayName>CommentCustomPage</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/gksd_CommentCustomPage3A487A8A-C2A2-EF11-8A69-000D3A5BBE11</FileName>
+</WebResource>

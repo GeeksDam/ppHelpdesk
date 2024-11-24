@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{39c19d0c-553c-45aa-ae27-6dc434c1a0c2}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{7c85cef9-bfe4-439e-91f8-eebf3f9a09f6}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2d343ddd-2754-46ef-bbec-2c200f1bf323}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{41d07f23-6f6a-4b59-a31a-f58a8a8dd3c2}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gksd_name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d58c77e3-ca27-46c6-8db6-2bb82f59463a}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7dfbc8bf-66f8-4fbf-8a55-da7b089b5b4c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_tickets_type" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gksd_tickets_type" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{faf60e79-0335-4294-9bb9-bbfd84d1246e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Assigned Resolver" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_ticket_assigned" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gksd_ticket_assigned" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b4be276-0827-4b11-a6e3-4d283fcf4410}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="gksd_ticket_desc" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="gksd_ticket_desc" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="View Ticket Details" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

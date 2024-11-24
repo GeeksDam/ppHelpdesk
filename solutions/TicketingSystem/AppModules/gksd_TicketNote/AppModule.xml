@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>gksd_TicketNote</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="gksd_tickets" />
+    <AppModuleComponent type="26" id="{be2de2e6-2ca4-4289-8a80-a29b4000c771}" />
+    <AppModuleComponent type="60" id="{9496d06f-d9a5-447d-a4d4-4b5d40c6810c}" />
+    <AppModuleComponent type="62" schemaName="gksd_TicketNote" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Ticket Desk" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Accelerate your workflow with Ticket Note, a dynamic tool designed to streamline ticket management. With its intuitive interface, you can easily track, manage, and update your tickets, enhancing productivity and efficiency." languagecode="1033" />
+  </Descriptions>
+  <appelements>
+    <appelement uniquename="gksd_gksd_TicketNote_canvasappid_gksd_comment_3846c">
+      <canvasappid>
+        <name>gksd_comment_3846c</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>gksd_gksd_TicketNote_canvasappid_gksd_comment_3846c</name>
+    </appelement>
+    <appelement uniquename="gksd_gksd_TicketNote_canvasappid_gksd_ticketnotedefaultcommandlibrary_f2b29">
+      <canvasappid>
+        <name>gksd_ticketnotedefaultcommandlibrary_f2b29</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>gksd_gksd_TicketNote_canvasappid_gksd_ticketnotedefaultcommandlibrary_f2b29</name>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>
