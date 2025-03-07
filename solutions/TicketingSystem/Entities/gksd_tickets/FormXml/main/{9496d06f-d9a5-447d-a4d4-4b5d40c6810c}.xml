@@ -14,6 +14,36 @@
           <columns>
             <column width="100%">
               <sections>
+                <section name="Ticket_section_5" id="94d300a0-7a7a-46c6-a69a-27d7a857e802" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell rowspan="2" id="{e0184aec-0ff6-4250-9add-6ed35ae03f7d}" showlabel="false" colspan="1">
+                        <labels>
+                          <label description="newsample" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_new_1" classid="{9FDF5F91-88B1-47F4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>gksd_newsmaple.html</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <WebResourceId>{088221b5-dce7-ef11-be1f-0022480c511b}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false" active="false" />
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                  </rows>
+                </section>
                 <section showlabel="false" showbar="false" IsUserDefined="0" id="{1245311f-c99c-40c5-8c02-ed6fd50a59d6}" name="Ticket Information" celllabelposition="Left">
                   <labels>
                     <label description="Details" languagecode="1033" />

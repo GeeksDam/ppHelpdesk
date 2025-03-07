@@ -1,0 +1,32 @@
+<appaction uniquename="gksd__UpdateAs!cb6f1a5ed694495193074cb3ed9a84f2!gksd_TicketNote!gksd_tickets!0">
+  <appmoduleid>
+    <uniquename>gksd_TicketNote</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Update As ">
+    <label description="Update As " languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>gksd_tickets</logicalname>
+  </contextentity>
+  <contextvalue>gksd_tickets</contextvalue>
+  <fonticon>RightChevron</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>UpdateAs!cb6f1a5ed694495193074cb3ed9a84f2</name>
+  <onclickeventjavascriptfunctionname>logMessage</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":12},{"type":8}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>a64d4645-e0e7-ef11-be1f-0022480c511b</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <sequence>100100022.5000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>
