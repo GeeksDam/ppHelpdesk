@@ -10,6 +10,8 @@
   <ClientType>4</ClientType>
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="actioncard" />
     <AppModuleComponent type="1" schemaName="gksd_tickets" />
     <AppModuleComponent type="26" id="{be2de2e6-2ca4-4289-8a80-a29b4000c771}" />
     <AppModuleComponent type="60" id="{9496d06f-d9a5-447d-a4d4-4b5d40c6810c}" />
@@ -45,6 +47,14 @@
     <appsetting settingdefinitionid.uniquename="AppChannel">
       <iscustomizable>1</iscustomizable>
       <value>1</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="AsyncOnLoad">
+      <iscustomizable>1</iscustomizable>
+      <value>true</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="AsyncOnSave">
+      <iscustomizable>1</iscustomizable>
+      <value>true</value>
     </appsetting>
   </appsettings>
 </AppModule>

@@ -448,7 +448,7 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="398770000" ExternalValue="">
+              <option value="398770000" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="New" languagecode="1033" />
                 </labels>
@@ -456,7 +456,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="398770001" ExternalValue="">
+              <option value="398770001" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Assigned" languagecode="1033" />
                 </labels>
@@ -464,7 +464,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="398770002" ExternalValue="">
+              <option value="398770002" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Closed" languagecode="1033" />
                 </labels>

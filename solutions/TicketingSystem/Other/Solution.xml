@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24111.168" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24111.168" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.24113.00160">
+<ImportExportXml version="9.2.25022.152" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25022.152" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25024.00180">
   <SolutionManifest>
     <UniqueName>TicketingSystem</UniqueName>
     <LocalizedNames>
@@ -90,6 +90,8 @@
       <RootComponent type="300" schemaName="gksd_comments_b0285" behavior="0" />
       <RootComponent type="300" schemaName="gksd_ticketnotedefaultcommandlibrary_f2b29" behavior="0" />
       <RootComponent type="61" schemaName="gksd_CommentCustomPage" behavior="0" />
+      <RootComponent type="61" schemaName="gksd_newsmaple.html" behavior="0" />
+      <RootComponent type="61" schemaName="gksd_samplejs" behavior="0" />
       <RootComponent type="62" schemaName="gksd_TicketNote" behavior="0" />
       <RootComponent type="80" schemaName="gksd_TicketNote" behavior="0" />
     </RootComponents>
@@ -99,14 +101,14 @@
         <Dependent type="80" schemaName="gksd_TicketNote" displayName="Ticket Desk" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2411.1006)">
-          <package appName="Base Custom Controls" version="9.0.2411.1006">BaseCustomControlsCore (9.0.2411.1006)</package>
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2502.2010)">
+          <package appName="Base Custom Controls" version="9.0.2502.2010">BaseCustomControlsCore (9.0.2502.2010)</package>
         </Required>
         <Dependent type="60" displayName="Information" parentDisplayName="tickets" id="{9496d06f-d9a5-447d-a4d4-4b5d40c6810c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.Grid.PCFGridControl" displayName="MscrmControls.Grid.PCFGridControl" solution="BaseCustomControlsCore (9.0.2411.1006)">
-          <package appName="Base Custom Controls" version="9.0.2411.1006">BaseCustomControlsCore (9.0.2411.1006)</package>
+        <Required type="66" schemaName="MscrmControls.Grid.PCFGridControl" displayName="MscrmControls.Grid.PCFGridControl" solution="BaseCustomControlsCore (9.0.2502.2010)">
+          <package appName="Base Custom Controls" version="9.0.2502.2010">BaseCustomControlsCore (9.0.2502.2010)</package>
         </Required>
         <Dependent type="26" schemaName="My Tickets" displayName="My Tickets" parentSchemaName="gksd_tickets" parentDisplayName="tickets" id="{be2de2e6-2ca4-4289-8a80-a29b4000c771}" />
       </MissingDependency>
@@ -115,6 +117,18 @@
           <package appName="PowerAppsAppFramework Package" version="1.0.0.16">PowerAppsAppFramework_Anchor (1.0.0.16)</package>
         </Required>
         <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=gksd_TicketNote,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="gksd_TicketNote" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AsyncOnLoad" solution="SettingDefinitionsData (9.2.2501.2501071)" id.uniquename="AsyncOnLoad">
+          <package appName="AppModule" version="9.2.2501.2501071">AppModuleSolutionAnchor (9.2.2501.2501071)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=gksd_TicketNote,settingdefinitionid.uniquename=AsyncOnLoad" id.parentappmoduleid.uniquename="gksd_TicketNote" id.settingdefinitionid.uniquename="AsyncOnLoad" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AsyncOnSave" solution="SettingDefinitionsData (9.2.2501.2501071)" id.uniquename="AsyncOnSave">
+          <package appName="AppModule" version="9.2.2501.2501071">AppModuleSolutionAnchor (9.2.2501.2501071)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=gksd_TicketNote,settingdefinitionid.uniquename=AsyncOnSave" id.parentappmoduleid.uniquename="gksd_TicketNote" id.settingdefinitionid.uniquename="AsyncOnSave" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

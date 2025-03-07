@@ -1,0 +1,6 @@
+function logMessage() {
+    // Check if the Xrm object is available (indicating we are in a Model-Driven App)
+  
+        console.log("This is a console log message from a Model-Driven App.");
+        console.log("Xrm object is not available. This script should be run in a Model-Driven App.")
+}
